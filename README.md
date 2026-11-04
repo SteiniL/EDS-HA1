@@ -1,18 +1,18 @@
 # Digitale Signalverarbeitung – 1. Hausaufgabe
 
-Lösung der 1. Hausaufgabe aus *Introduction to Digital Signal Processing* (TU Berlin, Wintersemester 2026/27).
+Lösung der 1. Hausaufgabe aus _Introduction to Digital Signal Processing_ (TU Berlin, Wintersemester 2026/27).
 
 **Themen:** Audiosignale, Systemtheorie, Faltung, Diskrete Fourier-Transformation (DFT), Aliasing.
 
 ## Inhalt
 
-| Datei | Beschreibung |
-|-------|--------------|
+| Datei                       | Beschreibung                                               |
+| --------------------------- | ---------------------------------------------------------- |
 | `homework_01_group_A.ipynb` | Notebook mit Code, Plots und Erklärungen zu allen Aufgaben |
-| `Homework_1_tasks.pdf` | Aufgabenblatt |
-| `speech.wav` | Sprachaufnahme (Stereo, 44,1 kHz) |
-| `impulse_response.wav` | Impulsantwort (Mono, 44,1 kHz) |
-| `requirements.txt` | Benötigte Python-Pakete mit festen Versionen |
+| `Homework_1_tasks.pdf`      | Aufgabenblatt                                              |
+| `speech.wav`                | Sprachaufnahme (Stereo, 44,1 kHz)                          |
+| `impulse_response.wav`      | Impulsantwort (Mono, 44,1 kHz)                             |
+| `requirements.txt`          | Benötigte Python-Pakete mit festen Versionen               |
 
 ## Aufgaben im Überblick
 
@@ -41,14 +41,7 @@ pip install -r requirements.txt
 ## Ausführen
 
 1. `homework_01_group_A.ipynb` in VS Code oder Jupyter öffnen.
-2. Als Kernel die `.venv` aus dem Projektordner auswählen (in VS Code: *Select Kernel* → *Python Environments* → `.venv`).
-3. Alle Zellen ausführen (*Run All*).
+2. Als Kernel die `.venv` aus dem Projektordner auswählen (in VS Code: _Select Kernel_ → _Python Environments_ → `.venv`).
+3. Alle Zellen ausführen (_Run All_).
 
 Die Audiodateien müssen im selben Ordner wie das Notebook liegen. Die gemessenen Rechenzeiten in Aufgabe 4 hängen vom Rechner ab.
-
-## Gruppe
-
-| Name | Matrikelnummer |
-|------|----------------|
-| _Vorname Nachname_ | _000000_ |
-| _Vorname Nachname_ | _000000_ |
